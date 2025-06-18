@@ -1,5 +1,5 @@
 {% set name = "potpourri3d" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/potpourri3d-{{ version }}.tar.gz
-  sha256: f211581a478a88609f6deb122782d89439b811d522d6950e210fa617041de00a
+  sha256: 212824954aa3a2f41dd6822017c2df8ab0e476a679a5ebb5be907e8b39558d97
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
 
 requirements:
